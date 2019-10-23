@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Metric Colosseum</title>
+    </head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous">
+
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous">
+    </script>
+    <script 
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+        crossorigin="anonymous">
+    </script>
+    <script 
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+        crossorigin="anonymous">
+    </script>
+
+    <!-- <script src="{{url_for('static', filename='signin_func.js')}}"></script> -->
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='create_account_style.css') }}"></link>
+    
+    <body>
+        <div id="outter">
+            <h2>Metric Colosseum</h2>
+            <br>
+            <br>
+            <div id="box">
+                <br>
+                <h3>Create Account</h3>
+                <br>
+                <div id="content">
+                    <div>
+                        
+                        <input id="firstname_input" style="width: 100%" type="text" placeholder="First Name"><br><br>
+                        <input id="lastname_input" style="width: 100%" type="text" placeholder="Last Name"><br><br>
+                        <input id="username_input" style="width: 100%" type="text" placeholder="Username"><br><br>
+                        <input id="password_input" style="width: 100%" type="password" placeholder="Password"><br><br>
+                        <input id="password_re_input" style="width: 100%" type="password" placeholder="Re-enter Password"><br><br>
+                        <input id="email" style="width: 100%" type="email" placeholder="Email"><br><br>
+                        <input id="institution_input" style="width: 100%" type="text" placeholder="Institution"><br><br>
+                        <br>
+                        
+                        <button id="continue_btn" class="btn btn-primary" style="width: 100%;">Create Account</button>
+                        <br>
+                        <br>
+                      
+                        
+                    </div>
+                    
+                    
+                </div>
+            
+            </div>
+        </div>
+    </body>
+
+</html>

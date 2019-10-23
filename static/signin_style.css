@@ -1,0 +1,29 @@
+body {
+    max-width: 500px;
+    margin: 0 auto;
+    float:none;
+    text-align: center;
+}
+#box {
+    outline: thin solid lightgray;
+    height: 400px; 
+    max-width: 400px;
+    margin: 0 auto;
+    float:none;
+    text-align: center;
+}
+#username_area {
+    max-width: 300px;
+    margin: 0 auto;
+    float:none;
+    text-align: center;
+}
+#username_area p {
+    color:lightgray;
+}
+#password_area {
+    max-width: 300px;
+    margin: 0 auto;
+    float:none;
+    text-align: center;
+}
